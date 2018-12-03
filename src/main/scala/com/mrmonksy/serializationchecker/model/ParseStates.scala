@@ -1,4 +1,4 @@
-package com.monksy.serializationchecker.model
+package com.mrmonksy.serializationchecker.model
 
 /**
   * This is returned if the parsing was a failed attempt.

@@ -1,6 +1,6 @@
-package com.monksy.serializationchecker
+package com.mrmonksy.serializationchecker
 
-import com.monksy.serializationchecker.model.{FailedParse, SourceItem, SuccessfulParse}
+import com.mrmonksy.serializationchecker.model.{FailedParse, SourceItem, SuccessfulParse}
 
 import scala.util.{Failure, Success, Try}
 

@@ -1,10 +1,10 @@
-package com.monksy.serializationchecker.integrationtest
+package com.mrmonksy.serializationchecker.integrationtest
 
 import java.io.File
 
-import com.monksy.serializationchecker.SerializationChecker
-import com.monksy.serializationchecker.model.{FileSource, SuccessfulParse}
-import com.monksy.serializationchecker.sourcecollector.Sources
+import com.mrmonksy.serializationchecker.SerializationChecker
+import com.mrmonksy.serializationchecker.model.{FileSource, SuccessfulParse}
+import com.mrmonksy.serializationchecker.sourcecollector.Sources
 import org.json4s.FieldSerializer._
 import org.json4s._
 import org.json4s.jackson.Serialization.read

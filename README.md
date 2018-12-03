@@ -14,6 +14,12 @@ The root problem that led to this project's creation is that REST typically uses
 
 ## Dependency Information
 
+To add this into your project use the following library dependencies and repository setups:
+
+    resolvers += Resolver.bintrayRepo("monksy","maven")
+
+    libraryDependencies += "com.mrmonksy" %% "serialization-checker" % "0.1.3"
+    
 ## Example 
 
 This project does not contain any particular specifics of integration. (I.e. ReactiveMongo, JSON4s, etc)

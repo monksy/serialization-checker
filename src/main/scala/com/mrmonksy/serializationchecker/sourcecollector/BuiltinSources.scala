@@ -1,8 +1,8 @@
-package com.monksy.serializationchecker.sourcecollector
+package com.mrmonksy.serializationchecker.sourcecollector
 
 import java.io.File
 
-import com.monksy.serializationchecker.model.{FileSource, SourceItem}
+import com.mrmonksy.serializationchecker.model.{FileSource, SourceItem}
 
 object Sources {
   def fromFolder(folderPath: String): List[SourceItem] = {

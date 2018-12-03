@@ -1,4 +1,4 @@
-package com.monksy.serializationchecker.model
+package com.mrmonksy.serializationchecker.model
 
 import java.io.File
 

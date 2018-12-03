@@ -31,8 +31,7 @@ trait SourceItem {
   * This constructs a source item from a single file.
   * @param filePath The path to where you can find the file.
   */
-class FileSource(filePath: String) extends SourceItem {
-  private val file = new File(filePath)
+class FileSource(file: File) extends SourceItem {
   private val src = Source.fromFile(file)
   private val rawContent = src.mkString
 

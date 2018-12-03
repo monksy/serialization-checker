@@ -8,15 +8,21 @@ This project is intended to run and verify that the examples provided (often tim
 
 This utility is intended to confirm that the object's format will match the examples provided. This is not intended to verify that the parsing parsed out all of the information correctly. It's better to test that out within your unit test on a case by case basis. 
 
+## Problem statement
 
 ## Dependency Information
 
 ## Example 
 
+## How to go about using this and where should you use it?
+
+## How to build 
+
 ## Other projects
 
 ## TODO
 
+ * Parse, Write, Parse verification (checking for repeatability serialization)
  * SBT Plugin that does automatic verification
  * ReactiveMongo Module
  * Templated CLI Application

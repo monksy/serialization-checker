@@ -13,7 +13,7 @@ libraryDependencies ++= Seq(
    "org.json4s" %% "json4s-jackson" % "3.6.2" % Test
 )
 
-coverageMinimum := 90
+coverageMinimum := 100
 coverageFailOnMinimum := true
 
 scalacOptions ++= Seq(

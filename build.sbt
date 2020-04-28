@@ -5,7 +5,7 @@ version := "0.1.3"
 
 organization := "com.mrmonksy"
 
-scalaVersion := "2.12.7"
+scalaVersion := "2.13.1"
 
 licenses += ("Apache-2.0", url("https://opensource.org/licenses/Apache-2.0"))
 
@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
    "org.json4s" %% "json4s-jackson" % "3.6.7" % Test
 )
 
-crossScalaVersions := Seq("2.11.8")
+crossScalaVersions := Seq("2.11.8", "2.12.7")
 
 coverageMinimum := 100
 coverageFailOnMinimum := true

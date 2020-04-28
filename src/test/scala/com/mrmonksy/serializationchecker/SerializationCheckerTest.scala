@@ -1,9 +1,10 @@
 package com.mrmonksy.serializationchecker
 
 import com.mrmonksy.serializationchecker.model.{FailedParse, SourceItem, SuccessfulParse}
-import org.scalatest.{Matchers, WordSpec}
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class SerializationCheckerTest extends WordSpec with Matchers {
+class SerializationCheckerTest extends AnyWordSpec with Matchers {
 
   "SerializationChecker.tryParse" should {
     "show a mixture of failures and successes" in {

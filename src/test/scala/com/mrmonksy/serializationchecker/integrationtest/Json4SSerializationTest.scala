@@ -8,9 +8,10 @@ import com.mrmonksy.serializationchecker.sourcecollector.Sources
 import org.json4s.FieldSerializer._
 import org.json4s._
 import org.json4s.jackson.Serialization.read
-import org.scalatest.{Matchers, WordSpec}
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class Json4SSerializationTest extends WordSpec with Matchers {
+class Json4SSerializationTest extends AnyWordSpec with Matchers {
   "Test single transformations" should {
     "Test a simple object without the option" in {
       val classLoader = getClass.getClassLoader

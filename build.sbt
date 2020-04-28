@@ -1,11 +1,11 @@
 
 name := """Serialization Checker"""
 
-version := "0.2.1"
+version := "0.2.2"
 
 organization := "com.mrmonksy"
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.2"
 
 licenses += ("Apache-2.0", url("https://opensource.org/licenses/Apache-2.0"))
 
@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
    "org.json4s" %% "json4s-jackson" % "3.6.7" % Test
 )
 
-crossScalaVersions := Seq("2.11.8", "2.12.7")
+crossScalaVersions := Seq("2.11.8", "2.12.7","2.13.1")
 
 coverageMinimum := 100
 coverageFailOnMinimum := true

@@ -11,7 +11,7 @@ licenses += ("Apache-2.0", url("https://opensource.org/licenses/Apache-2.0"))
 
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.2" % Test,
-  "org.scalacheck" %% "scalacheck" % "1.14.3" % Test,
+  "org.scalacheck" %% "scalacheck" % "1.15.2" % Test,
    "org.json4s" %% "json4s-jackson" % "3.6.9" % Test
 )
 

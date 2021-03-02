@@ -12,7 +12,7 @@ licenses += ("Apache-2.0", url("https://opensource.org/licenses/Apache-2.0"))
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "3.2.2" % Test,
   "org.scalacheck" %% "scalacheck" % "1.14.3" % Test,
-   "org.json4s" %% "json4s-jackson" % "3.6.9" % Test
+   "org.json4s" %% "json4s-jackson" % "3.6.11" % Test
 )
 
 crossScalaVersions := Seq("2.11.8", "2.12.7","2.13.1")

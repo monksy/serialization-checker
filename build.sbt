@@ -15,7 +15,7 @@ libraryDependencies ++= Seq(
    "org.json4s" %% "json4s-jackson" % "3.6.9" % Test
 )
 
-crossScalaVersions := Seq("2.11.8", "2.12.7","2.13.1")
+crossScalaVersions := Seq("2.11.8", "2.12.7","2.13.7")
 
 coverageMinimum := 100
 coverageFailOnMinimum := true

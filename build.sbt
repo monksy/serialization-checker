@@ -51,10 +51,10 @@ scalacOptions ++= Seq(
 )
 
 
-scalacOptions in (Compile, console) ~= (_.filterNot(Set(
+(Compile / console / scalacOptions) ~= (_.filterNot(Set(
   "-Xfatal-warnings"
 )))
 
-scalacOptions in (Test, compile) ~= (_.filterNot(Set(
+(Test / compile / scalacOptions) ~= (_.filterNot(Set(
   "-Xfatal-warnings"
 )))
